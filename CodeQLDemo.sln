@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeQLDemo", "CodeQLDemo\CodeQLDemo.csproj", "{1EBB1FB5-EE90-4B93-A051-ED6BDA41B27C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6BFE06AF-1EC0-4BCE-8CFB-BA635D5D04F0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EBB1FB5-EE90-4B93-A051-ED6BDA41B27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBB1FB5-EE90-4B93-A051-ED6BDA41B27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBB1FB5-EE90-4B93-A051-ED6BDA41B27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBB1FB5-EE90-4B93-A051-ED6BDA41B27C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1023E28-A4A1-474E-BB05-925E8D51D336}
+	EndGlobalSection
+EndGlobal
