@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using Microsoft.Data.SqlClient;
@@ -9,7 +8,7 @@ namespace CodeQLDemo
 {
     public class SomeDbContext : DbContext
     {
-        public SomeDbContext():base(new DbContextOptionsBuilder<SomeDbContext>().UseSqlServer(new SqlConnection("Data Source=(localdb)\\mssqllocaldb;Initial Catalog=BlazorFormSample;UserName=hasallthepower;Password=mygreatpassword1!")).Options)
+        public SomeDbContext():base(new DbContextOptionsBuilder<SomeDbContext>().UseSqlServer(new SqlConnection("Data Source=SuperSecretServer;Initial Catalog=CompanySecrets;UserName=hasallthepower;Password=mygreatpassword1!")).Options)
         {
             
         }
@@ -23,13 +22,4 @@ namespace CodeQLDemo
 
         [Required] public string Name { get; set; }
     }
-
-    public static class Program
-    {
-        public static void Main(string[] args)
-        {
-            using SomeDbContext dbContext = new SomeDbContext();
-            Console.WriteLine(dbContext.MyEntities.Find(1).Name);
-        }
-    } 
 }
